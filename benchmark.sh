@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Track which commands to run
 test_cpu=false
 test_gpu=false

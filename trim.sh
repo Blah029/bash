@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Track which commands to run
 trim_video=true
 print_help=false
