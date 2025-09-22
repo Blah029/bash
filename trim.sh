@@ -12,4 +12,4 @@ for arg in "$@"; do
 done
 
 $trim_video && ffmpeg -ss $2 -to $3 -i "$PWD/$1" -c copy "$PWD/Trimmed - ${1%.*}.mp4"
-$print_help && echo -e  "trim.sh [file-without-extension] [start] [end]"
+$print_help && echo -e  "trim.sh [file] [start] [end]"
